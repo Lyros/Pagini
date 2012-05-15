@@ -1,0 +1,61 @@
+/****************************************************
+pages.css
+Contains all CSS code specific to the page pages.php.
+****************************************************/
+
+table#pages a[href="pages-new.php"] {
+  background:left url("../img/icons/add.png");
+  background-repeat:no-repeat;
+  padding-left:20px;
+  }
+
+table#pages td span.orderid {
+  color:#595959;
+  float:right;
+  font-size:28px;
+  margin:0px;
+  padding:0px;
+  }
+
+table#pages input#rename {
+  font-size:18px;
+  height:30px;
+  }
+
+table#pages input[type="submit"] {
+  margin:0px 10px;
+  }
+  
+table#page {
+  width:100%;
+  }
+
+td#page_orderid {
+  width:55px;
+  }
+  
+input#page_name {
+  font-size:20px;
+  height:30px;
+  letter-spacing:1px;
+  margin:10px 0px;
+  width:100%;
+  }
+
+input#page_orderid {
+  font-size:20px;
+  height:30px;
+  letter-spacing:1px;
+  margin:10px 0px 10px 15px;
+  text-align:right;
+  width:40px;
+  }
+
+span#cke_page_content {
+  padding:0px;
+  margin:10px 0px;
+  }
+
+input.hint {
+  color:#AAAAAA;
+  }

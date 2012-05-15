@@ -1,0 +1,25 @@
+/********************************************************
+configure.css
+Contains all CSS code specific to the page configure.php.
+********************************************************/
+
+h3 a, h3 a:hover {
+  color:#383838;
+  }
+
+table#settings {
+  font-size:13px;
+  color:#383838;
+  }
+
+  table#settings th {
+    text-align:left;
+    }
+  
+  table#settings tr {
+    height:40px;
+    }
+  
+  table#settings td {
+    width:250px;
+    }

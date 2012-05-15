@@ -1,0 +1,195 @@
+html, body {
+  background-color:#F7F7F7;
+  font-family:Arial, Verdana, sans-serif;
+  margin:0px;
+  padding:0px;
+  text-align:center;
+  }
+
+div#main {
+  background-color:#FCFCFC;
+  border:solid 2px #F2F2F2;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  color:#303030;
+  margin:30px auto;
+  padding:25px;
+  text-align:center;
+  width:700px;
+  }
+
+img#logo {
+  margin:0px auto;
+  width:120px;
+  }
+  
+h2 {
+  border-bottom:dotted 1px #B8B8B8;
+  color:#5E5E5E;
+  font-family:"Times New Roman", serif;
+  font-size:28px;
+  font-weight:normal;
+  letter-spacing:2px;
+  margin:3px 0px;
+  padding:3px 0px;
+  text-align:left;
+  }
+
+p {
+  font-size:14px;
+  line-height:160%;
+  margin:5px 0px;
+  padding:0px;
+  text-align:justify;
+  text-indent:10px;
+  }
+
+ul {
+  line-height:160%;
+  margin:0px 20px;
+  padding:0px;
+  font-size:14px;
+  text-align:left;
+  }
+
+code {
+  font-size:14px;
+  }
+
+input[type="text"], input[type="password"] {
+  background-color:white;
+  height:25px;
+  width:250px;
+  padding-left:1px;
+  padding-right:1px;
+  border:solid 1px #E0E0E0;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  }
+
+textarea {
+  background-color:white;
+  border:solid 1px #E0E0E0;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  }
+  
+input[type="button"], input[type="submit"] {
+  background-color:#F5F5F5;
+  border:solid 1px #DEDEDE;
+  border-top:1px solid #EEE;
+  border-left:1px solid #EEE;
+  color:#529214;
+  cursor:pointer;
+  font-size:14px;
+  line-height:150%;
+  padding:5px;
+  width:auto;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  }
+  
+  input[type="button"]:hover, input[type="button"]:active, input[type="submit"]:hover, input[type="submit"]:active
+    {
+    background-color:#E6EFC2;
+    border:1px solid #C6D880;
+    color:#529214;
+    }
+
+input[type="submit"][name="test"] {
+  color:#CD9B1D;
+  }
+      
+input[type="submit"][name="test"]:hover {
+  background-color:#FDFCDC;
+  border:solid 1px #FCF6CF;
+  color:#CD9B1D;
+  }
+
+input[type="submit"][disabled="1"]
+  {
+  background-color:#F5F5F5;
+  border:solid 1px #DEDEDE;
+  border-top:1px solid #EEE;
+  border-left:1px solid #EEE;
+  color:#A1A1A1;
+  cursor:default;
+  }
+      
+  input[type="submit"][disabled="1"]:hover, input[type="submit"][disabled="1"]:active
+    {
+    background-color:#F5F5F5;
+    border:solid 1px #DEDEDE;
+    border-top:1px solid #EEE;
+    border-left:1px solid #EEE;
+    color:#A1A1A1;
+    }
+
+fieldset {
+  border:none; 
+  margin:30px 0px; 
+  padding:0px;
+  text-align:left;
+  }
+
+table,td {
+  width:100%;
+  }
+  
+label {
+  display:block;
+  float:left;
+  font-size:14px;
+  height:25px;
+  margin:0px;
+  padding:0px;
+  padding-top:5px;
+  width:200px;
+  }
+
+input[type="text"], input[type="password"] {
+  display:block;
+  margin:3px;
+  }
+
+/* Password tester */
+span.testresult {
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  display:block;
+  font-size:15px;
+  font-weight:bold;
+  margin:10px 200px;
+  padding:5px;
+  text-align:center;
+  width:240px;
+  }
+
+span.badPass {
+  background-color:#FFA54F;
+  border:solid 1px #CD853F;
+  color:#FFFFFF;
+  }
+
+span.shortPass {
+  background-color:#FF6347;
+  border:solid 1px #8B3626;
+  color:#FFFFFF;
+  }
+
+span.goodPass {
+  background-color:#FFF68F;
+  border:solid 1px #CDC673;
+  }
+  
+span.strongPass {
+  background-color:#98FB98;
+  border:solid 1px #7CCD7C;
+  color:#006400;
+  }
+  

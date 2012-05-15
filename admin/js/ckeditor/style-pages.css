@@ -1,0 +1,26 @@
+p, ul, li {
+  font:13px Arial, sans-serif;
+  }
+  
+strong {
+  font-weight:bold;
+  }
+
+em {
+  font-style:italic;
+  }
+  
+sup, sub {
+  font-size:10px;
+  }
+
+blockquote {
+  background-color:#FCFCFC;
+  border:dashed 1px lightgray;
+  padding:0px 10px;
+  }
+
+pre {
+  font-family:monospace;
+  letter-spacing:1px;
+  }

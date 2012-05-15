@@ -1,0 +1,65 @@
+/******************************************************
+themes.css
+Contains all CSS code specific to the page themess.php.
+******************************************************/
+
+table#themes {
+  font-size:16px;
+  font-weight:bold;
+  padding:10px;
+  width:100%;
+  }
+  
+  table#themes td {
+    padding:10px;
+    vertical-align:top;
+    }
+  
+tr#current td {
+  background-color:#FAFAFA;
+  border:solid 1px #CCCCCC;
+  }
+
+tr#current td {
+  border-left:none;
+  }
+  
+tr#current td.screenshot {
+  border-left:solid 1px #CCCCCC;
+  border-right:none;
+  }
+ 
+td.screenshot {
+  width:210px;
+  }
+   
+img.screenshot {
+  width:200px;
+  }
+
+img.screenshot:hover {
+  opacity:0.7;
+  filter:alpha(opacity=70);
+  }
+  
+a.preview:hover {
+  border:none;
+  }
+  
+span.description {
+  display:block;
+  font-size:12px;
+  font-style:italic;
+  font-weight:normal;
+  margin:5px 0px 10px;
+  }
+
+input#edit {
+  color:#CD9B1D;
+  }
+      
+input#edit:hover {
+  background-color:#FDFCDC;
+  border:solid 1px #FCF6CF;
+  color:#CD9B1D;
+  }

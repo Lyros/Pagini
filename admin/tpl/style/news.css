@@ -1,0 +1,40 @@
+/***************************************************
+news.css
+Contains all CSS code specific to the page news.php.
+***************************************************/
+
+table#news a[href="news-new.php"] {
+  background:left url("../img/icons/add.png");
+  background-repeat:no-repeat;
+  padding-left:20px;
+  }
+
+table#news input#rename {
+  font-size:18px;
+  height:30px;
+  }
+
+table#news input[type="submit"] {
+  margin:0px 10px;
+  }
+  
+table#post {
+  width:100%;
+  }
+  
+input#post_title {
+  font-size:20px;
+  height:30px;
+  letter-spacing:1px;
+  margin:10px 0px;
+  width:100%;
+  }
+
+span#cke_post_content {
+  padding:0px;
+  margin:10px 0px;
+  }
+
+input.hint {
+  color:#AAAAAA;
+  }
